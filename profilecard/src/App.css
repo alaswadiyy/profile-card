@@ -1,0 +1,120 @@
+body {
+  background:#23252C;
+  height: 100vh;
+  
+}
+.App {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 317px;
+  margin: auto;
+  font-family: arial;
+  background: #1A1B21;
+  margin: 0 auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.img{
+  width: 317px;
+  height: 280px;
+  border-radius: 10px 10px 0 0;
+}
+
+.git {
+  text-decoration: none;
+  color: #fff;
+  font-size: 11px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 25px;
+  line-height: 1.1;
+}
+
+.title {
+  color: #F3BF99;
+  font-size: 13px;
+}
+.btns {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.btn1 {
+  display: flex;
+  align-items: center;
+  padding: 9px 22px;
+  cursor: pointer;
+  border: 1px solid #D1D5DB;
+  align-items: center;
+  border-radius: .3rem;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn2 {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: 9px 22px;
+  cursor: pointer;
+  background: #5093E2;
+  border: 1px solid #23252C;
+  border-radius: .3rem;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  text-decoration-color: #fff;
+}
+h2 {
+  text-align: left;
+  color: #fff;
+  font-size: 16px;
+}
+
+.about {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.article {
+  color: #DCDCDC;
+  text-align: left;
+  font-size: 11px;
+}
+
+.social {
+  width: 317px;
+  height: 50px;
+  background: #161619;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 2rem;
+  padding: 1rem;
+  color: #918E9B;
+}
